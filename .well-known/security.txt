@@ -1,0 +1,4 @@
+Contact: mailto:support@secretcryptos.com
+Policy: https://github.com/SecretCryptos/security
+Encryption: https://github.com/SecretCryptos/security#pgp
+Expires: 2028-01-01T00:00:00Z

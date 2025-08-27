@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SecretCryptos • Crypto Mixer & Exchange • Links</title>
+  <meta name="description" content="SecretCryptos — Crypto Mixer & Exchange. Quick links: API Docs, Downloads, Partner (Get API Key), FAQ, Security, Support." />
+  <!-- Open Graph / Twitter (opsiyonel ama güzel) -->
+  <meta property="og:title" content="SecretCryptos • Crypto Mixer & Exchange • Links" />
+  <meta property="og:description" content="Quick links: API Docs, Downloads, Partner, FAQ, Security, Support." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://secretcryptos.github.io/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <style>
+    :root{ --bg:#0d1117; --panel:#111827; --muted:#9ca3af; --text:#e5e7eb; --accent:#35d35b; --border:#1f2937; }
+    @media (prefers-color-scheme: light){ :root{ --bg:#f8fafc; --panel:#ffffff; --muted:#6b7280; --text:#0f172a; --accent:#22c55e; --border:#e5e7eb; } }
+    *{ box-sizing:border-box } body{ margin:0; background:var(--bg); color:var(--text); font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial; }
+    .wrap{ max-width:980px; margin:40px auto; padding:0 20px; } header{ display:flex; align-items:center; justify-content:space-between; margin-bottom:24px; }
+    .brand{ font-weight:700; letter-spacing:.2px; display:flex; align-items:center; gap:10px; }
+    .brand .dot{ width:10px; height:10px; background:var(--accent); border-radius:3px; box-shadow:0 0 0 2px rgba(53,211,91,.2); }
+    .grid{ display:grid; gap:14px; grid-template-columns: repeat(auto-fill,minmax(240px,1fr)); }
+    .card{ background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:16px; text-decoration:none; color:inherit; transition:.18s; display:block }
+    .card:hover{ border-color:var(--accent); transform:translateY(-2px); box-shadow:0 8px 30px rgba(0,0,0,.18) }
+    .card h3{ margin:0 0 6px 0; font-size:16px } .card p{ margin:0; color:var(--muted); font-size:14px }
+    footer{ margin:28px 0 10px; color:var(--muted); font-size:13px }
+    .tag{ display:inline-block; font-size:11px; padding:2px 8px; border-radius:999px; border:1px solid var(--border); color:var(--muted); }
+    .row{ display:flex; gap:8px; flex-wrap:wrap; margin:10px 0 22px }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand"><span class="dot"></span> SecretCryptos</div>
+      <div class="row">
+        <span class="tag">Crypto Mixer & Exchange</span>
+        <span class="tag">API v1</span>
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- Main site -->
+      <a class="card" href="https://secretcryptos.com/" target="_blank" rel="noopener"><h3>Homepage</h3><p>secretcryptos.com</p></a>
+      <a class="card" href="https://secretcryptos.com/downloads" target="_blank" rel="noopener"><h3>Downloads</h3><p>Tools & resources</p></a>
+      <a class="card" href="https://secretcryptos.com/partner" target="_blank" rel="noopener"><h3>Partner / Get API Key</h3><p>Dashboard & API key</p></a>
+      <a class="card" href="https://secretcryptos.com/faq" target="_blank" rel="noopener"><h3>FAQ</h3><p>Common questions</p></a>
+      <a class="card" href="https://secretcryptos.com/support" target="_blank" rel="noopener"><h3>Support</h3><p>Help center</p></a>
+
+      <!-- GitHub -->
+      <a class="card" href="/api-docs/"><h3>API Docs (Swagger UI)</h3><p>Interactive reference</p></a>
+      <a class="card" href="https://github.com/SecretCryptos/api-docs" target="_blank" rel="noopener"><h3>GitHub • api-docs</h3><p>OpenAPI, Postman, examples</p></a>
+      <a class="card" href="https://github.com/SecretCryptos/security" target="_blank" rel="noopener"><h3>Security & PGP</h3><p>Security policy & key</p></a>
+
+      <!-- Social -->
+      <a class="card" href="https://x.com/secretmixapp" target="_blank" rel="noopener"><h3>X (Twitter)</h3><p>@secretmixapp</p></a>
+    </div>
+
+    <footer>© <span id="y"></span> SecretCryptos • <a href="/api-docs/" style="color:inherit">API</a> • <a href="https://github.com/SecretCryptos" style="color:inherit" target="_blank" rel="noopener">GitHub</a></footer>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
